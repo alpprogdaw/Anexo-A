@@ -12,8 +12,8 @@ public class Suma_N_Naturales {
 		n = in.nextInt();
 		
 		if (n > 0) {
-			for (int natural = 1; natural <= n; natural++) {
-				suma = suma + natural;
+			for (int naturales = 1; naturales <= n; naturales++) {
+				suma = suma + naturales;
 			}
 			System.out.println("La suma de " + n + " naturales es " + suma);
 		}
